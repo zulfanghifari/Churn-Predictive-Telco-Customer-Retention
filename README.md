@@ -8,7 +8,7 @@
 
 ## 🎯 Demo Aplikasi
 
-🔗 **[Customer Churn Prediction - Streamlit App](https://customer-churn-prediction.streamlit.app)**
+🔗 **[Customer Churn Prediction - Streamlit App](https://churn-predictive-telco-customer-retention.streamlit.app/)**
 
 Aplikasi prediksi churn
 
