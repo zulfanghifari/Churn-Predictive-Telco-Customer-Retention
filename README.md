@@ -1,6 +1,6 @@
 # 📊 Telco Customer Churn Prediction
 
-[![Streamlit App](https://img.shields.io/badge/Streamlit-App-ff4b4b?style=for-the-badge&logo=streamlit)](https://customer-churn-prediction.streamlit.app)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-App-ff4b4b?style=for-the-badge&logo=streamlit)](https://churn-predictive-telco-customer-retention.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Machine Learning](https://img.shields.io/badge/Machine-Learning-orange?style=for-the-badge)]()
 
