@@ -4,13 +4,13 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Machine Learning](https://img.shields.io/badge/Machine-Learning-orange?style=for-the-badge)]()
 
-> **Machine Learning solution untuk memprediksi customer churn di industri telekomunikasi dengan akurasi tinggi, membantu perusahaan menghemat hingga 45% biaya promosi.**
+> **Machine Learning solution untuk memprediksi customer churn di industri telekomunikasi dengan akurasi tinggi, membantu perusahaan menghemat hingga 23,71% biaya promosi.**
 
 ## 🎯 Demo Aplikasi
 
 🔗 **[Customer Churn Prediction - Streamlit App](https://customer-churn-prediction.streamlit.app)**
 
-Coba aplikasi prediksi churn secara langsung dengan interface yang user-friendly!
+Aplikasi prediksi churn
 
 ---
 
@@ -40,7 +40,7 @@ Proyek ini mengembangkan sistem prediksi customer churn berbasis Machine Learnin
 ### Key Features
 
 ✅ Prediksi churn dengan **F2-Score 0.745** (setelah tuning)  
-✅ Pengurangan kerugian finansial hingga **45%** ($71,300 → $40,900)  
+✅ Pengurangan kerugian finansial hingga **23,71%** ($7,130 → $5440)  
 ✅ Interactive dashboard dengan **Streamlit**  
 ✅ Explainable AI menggunakan **LIME & SHAP**  
 ✅ Feature importance analysis untuk business insights  
@@ -69,10 +69,10 @@ Perusahaan membutuhkan sistem prediksi churn berbasis Machine Learning untuk:
 
 | Jenis Kesalahan | Biaya | Dampak |
 |----------------|-------|--------|
-| **False Positive (FP)** | $100 | Promosi diberikan ke pelanggan loyal (pemborosan) |
-| **False Negative (FN)** | $500 | Kehilangan pelanggan berisiko tinggi |
+| **False Positive (FP)** | $10 | Promosi diberikan ke pelanggan loyal (pemborosan) |
+| **False Negative (FN)** | $80 | Kehilangan pelanggan berisiko tinggi |
 
-**Prioritas**: Meminimalkan False Negative (FN) karena cost-nya 5x lebih besar
+**Prioritas**: Meminimalkan False Negative (FN) karena cost-nya 8x lebih besar
 
 ---
 
@@ -200,24 +200,24 @@ Perusahaan membutuhkan sistem prediksi churn berbasis Machine Learning untuk:
 ### Cost Comparison
 
 #### ❌ Without Machine Learning
-- **Total Promotion Cost**: 971 customers × $100 = **$97,100**
-- **Wasted Promotion** (ke pelanggan loyal): 713 × $100 = **$71,300**
-- **Effective Promotion**: 258 × $100 = $25,800
+- **Total Promotion Cost**: 971 customers × $10 = **$9,710**
+- **Wasted Promotion** (ke pelanggan loyal): 713 × $10 = **$7,130**
+- **Effective Promotion**: 258 × $10 = $2,580
 
 #### ✅ With Machine Learning
-- **False Positive Cost**: 184 × $100 = $18,400
-- **False Negative Cost**: 45 × $500 = $22,500
-- **Total Loss**: **$40,900**
+- **False Positive Cost**: 184 × $10 = $1,840
+- **False Negative Cost**: 45 × $80 = $3,600
+- **Total Loss**: **$5,440**
 
 ### 💡 Savings Achieved
 
 ```
-Kerugian Berkurang: $71,300 → $40,900
-Penghematan: $30,400
-Persentase Penghematan: 42.6%
+Kerugian Berkurang: $7,130 → $5,440
+Penghematan: $1,660
+Persentase Penghematan: 23,71%
 ```
 
-**ROI**: Machine Learning berhasil mengurangi kerugian hingga **45%**! 🎉
+**ROI**: Machine Learning berhasil mengurangi kerugian hingga **23,71**! 🎉
 
 ---
 
@@ -423,15 +423,6 @@ Churn Rate Analysis:
 - [ ] CI/CD pipeline
 - [ ] Model monitoring & retraining automation
 
----
-
-
-
-## 🙏 Acknowledgments
-
-- Dataset provided by Telco Company
-- Purwadhika Digital Technology School
-- Open source community
 
 ---
 
